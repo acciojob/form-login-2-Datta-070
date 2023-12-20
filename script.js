@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementById("myform").addEventListener('submit', function(event) {
+document.getElementById('myform').addEventListener('submit', function(event) {
 	event.preventDefault();
 
 	var fname = document.getElementById('fname').value;
