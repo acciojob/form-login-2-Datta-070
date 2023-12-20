@@ -7,6 +7,6 @@ document.getElementById("myform").addEventListener('submit', function(event) {
 	var phone = document.getElementById('phone').value;
 	var mail = document.getElementById('mail').value;
 
-	var alertMessage = 'Name: ' + fname + '\nLast Name: ' + lname + '\nPhone no: ' + phone + '\nEmail: ' + mail;
+	var alertMessage = 'First Name: ' + fname + '\nLast Name: ' + lname + '\nPhone no: ' + phone + '\nEmail ID: ' + mail;
 	alert(alertMessage);
 })
