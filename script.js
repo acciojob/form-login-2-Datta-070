@@ -1,12 +1,9 @@
 //your JS code here. If required.
-document.getElementById('myform').addEventListener('submit', function(event) {
-	event.preventDefault();
+function displayFormValues(){ 
+	var name=document.getElementById('fname').value;
+	var last=document.getElementById('lname').value;
+	var phone=document.getElementById('Pnum').value;
+	var email=document.getElementById('eid').value;
 
-	var fname = document.getElementById('fname').value;
-	var lname = document.getElementById('lname').value;
-	var phone = document.getElementById('phone').value;
-	var mail = document.getElementById('mail').value;
-
-	var alertMessage = 'First Name: ' + fname + '\nLast Name: ' + lname + '\nPhone no: ' + phone + '\nEmail ID: ' + mail;
-	alert(alertMessage);
-})
+	alert('First Name:'+name+'\nLast Name:'+last+'\nPhone Number:'+phone+'\nEmail ID:'+email);
+}
